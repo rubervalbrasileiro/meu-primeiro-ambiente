@@ -49,8 +49,6 @@ Criar a base estrutural do projeto Node e preparar o ambiente de desenvolvimento
 
 Projeto inicializado com `package.json` configurado e dependências instaladas corretamente.
 
-## ✔ Checklist
-
 * [x] Estrutura criada
 * [x] npm inicializado
 * [x] Express instalado
@@ -71,14 +69,12 @@ Configurar servidor HTTP funcional.
 1. Importar Express
 2. Criar instância da aplicação
 3. Definir porta
-4. Criar rota `/Sobre`
+4. Criar rota `/sobre`
 5. Inicializar com `app.listen()`
 
 ## 🎯 Resultado Esperado
 
 Servidor rodando na porta configurada e respondendo requisições HTTP.
-
-## ✔ Checklist
 
 * [x] Servidor configurado
 * [x] Porta definida
@@ -103,11 +99,11 @@ Demonstrar funcionamento do roteamento com múltiplos endpoints.
 
 ## 🎯 Resultado Esperado
 
-Servidor respondendo em `https://fuzzy-bassoon-r4prj644pwqjhpxjq-3000.app.github.dev/` e `https://fuzzy-bassoon-r4prj644pwqjhpxjq-3000.app.github.dev/sobre`.
+Servidor respondendo em
 
-![alt text](image-2.png)
+![codespace](./src/img/image-1.png)
 
-![Sobre](./image-1.png)
+![sobre](./src/img/image-2.png)
 
 * [x] Nova rota criada
 * [x] Teste realizado
@@ -133,8 +129,6 @@ Separar responsabilidades e preparar arquitetura escalável.
 ## 🎯 Resultado Esperado
 
 Código organizado em camadas, facilitando manutenção futura.
-
-## ✔ Checklist
 
 * [x] Estrutura modular criada
 * [x] Rotas isoladas
@@ -184,8 +178,6 @@ Versionar a evolução do projeto.
 ## 🎯 Resultado Esperado
 
 Histórico versionado e sincronizado com repositório remoto.
-
-## ✔ Checklist
 
 * [x] git status verificado
 * [x] git add executado
